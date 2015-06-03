@@ -33,24 +33,6 @@
                                     <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="J01-Lz-GRZ"/>
                                 </items>
                             </toolbar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lie-ry-fcJ">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="600" id="5HI-rl-N1W"/>
-                                </constraints>
-                                <items>
-                                    <barButtonItem systemItem="action" id="TR1-y8-5Rf">
-                                        <connections>
-                                            <action selector="shareMeme:" destination="BYZ-38-t0r" id="Ag6-Ti-fBQ"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem systemItem="cancel" id="eEV-YG-th9">
-                                        <connections>
-                                            <action selector="CancelEditing:" destination="BYZ-38-t0r" id="e0L-pC-InJ"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qMr-cg-2hj">
                                 <rect key="frame" x="0.0" y="44" width="600" height="512"/>
                             </imageView>
@@ -69,6 +51,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lie-ry-fcJ">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="5HI-rl-N1W"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="action" id="TR1-y8-5Rf">
+                                        <connections>
+                                            <action selector="shareMeme:" destination="BYZ-38-t0r" id="Ag6-Ti-fBQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="cancel" id="eEV-YG-th9">
+                                        <connections>
+                                            <action selector="CancelEditing:" destination="BYZ-38-t0r" id="e0L-pC-InJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -78,6 +78,7 @@
                             <constraint firstItem="KDF-3Z-BFt" firstAttribute="leading" secondItem="DcD-hT-cTc" secondAttribute="leading" id="KMB-H2-URp"/>
                             <constraint firstItem="DcD-hT-cTc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="KWm-fC-7ho"/>
                             <constraint firstItem="DcD-hT-cTc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Mjc-Zk-LrG"/>
+                            <constraint firstItem="lie-ry-fcJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="TbS-8D-Hu6"/>
                             <constraint firstItem="qMr-cg-2hj" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" constant="-44" id="bxd-Zn-Z6p"/>
                             <constraint firstItem="DcD-hT-cTc" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="gHV-bI-Dgd"/>
                             <constraint firstItem="ho0-93-hW7" firstAttribute="top" secondItem="KDF-3Z-BFt" secondAttribute="bottom" constant="8" id="gxn-s3-QWd"/>
@@ -293,7 +294,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="EYw-by-bKF" secondAttribute="trailing" constant="-16" id="cOy-tK-2im"/>
                             <constraint firstItem="EYw-by-bKF" firstAttribute="leading" secondItem="jNw-3p-Fzd" secondAttribute="leadingMargin" constant="-16" id="qkx-jQ-ycG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gOV-wU-jbh" secondAttribute="trailing" constant="-16" id="r1f-DI-xkA"/>
-                            <constraint firstItem="st7-zR-l8Y" firstAttribute="top" secondItem="gOV-wU-jbh" secondAttribute="bottom" constant="44" id="tq2-oI-f0s"/>
+                            <constraint firstItem="EYw-by-bKF" firstAttribute="top" secondItem="gOV-wU-jbh" secondAttribute="bottom" id="ul5-Q8-eJ4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oV5-PD-3m5"/>
@@ -304,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHn-Yn-y2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1708" y="-221"/>
+            <point key="canvasLocation" x="1910" y="-258"/>
         </scene>
     </scenes>
 </document>

@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>37C11EFA-B1A1-4A32-8885-B8BD8E40A2AF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MemeMe</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3896BE2463D008043554C243C23F3938E66DB457</key>
-		<string>https://github.com/mharpe2/MemeMe-1.0.git</string>
+		<key>3A3F9407BB9475C0BE2BDD841CEAC8A5AE81D40B</key>
+		<string>https://github.com/mharpe2/MemeMe-2.0-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MemeMe.xcodeproj/project.xcworkspace</string>
+	<string>MemeMe.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3896BE2463D008043554C243C23F3938E66DB457</key>
+		<key>3A3F9407BB9475C0BE2BDD841CEAC8A5AE81D40B</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/mharpe2/MemeMe-1.0.git</string>
+	<string>https://github.com/mharpe2/MemeMe-2.0-master.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3896BE2463D008043554C243C23F3938E66DB457</string>
+	<string>3A3F9407BB9475C0BE2BDD841CEAC8A5AE81D40B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3896BE2463D008043554C243C23F3938E66DB457</string>
+			<string>3A3F9407BB9475C0BE2BDD841CEAC8A5AE81D40B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MemeMe-1.0</string>
+			<string>MemeMe-2.0-master</string>
 		</dict>
 	</array>
 </dict>
